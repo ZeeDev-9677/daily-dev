@@ -1,5 +1,5 @@
 1->git init
 2->git add --all
 3->git commit -m "your commit message should be write here"
-4->git remote add origin https://github.com/ZeeDev-9677/school-app.git (the project link is copied from github under clone link of https)
-5->git push -u origin
+4->git remote add origin https://github.com/ZeeDev-9677/daily-dev.git (the project link is copied from github under clone link of https)
+5->git push -u origin your branch_name_here(main or master or anyother branch name)
