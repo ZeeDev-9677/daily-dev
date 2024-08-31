@@ -1,0 +1,20 @@
+package StringQuestions;
+
+import java.util.Arrays;
+
+public class AnagramCheck {
+
+	public static void main(String[] args) {
+		String s1 = "SMOKE";
+		char[] ch1 = s1.toCharArray();
+		String s2 = "SIXER";
+
+		Arrays.sort(ch1);
+//		System.out.println(ch1);
+		for (int i = 0; i < ch1.length; i++) {
+
+		}
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;StringQuestion.java&apos; to &apos;JavaCollection/src/StringQuestions&apos;&#x0D;&#x0A;- Original project: &apos;JavaCollection&apos;&#x0D;&#x0A;- Destination element: &apos;JavaCollection/src/StringQuestions&apos;&#x0D;&#x0A;- Original element: &apos;basicodes.StringQuestion.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;StringQuestions" element1="/src&lt;basicodes{StringQuestion.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1720025214623" units="1" version="1.0"/>
+</session>

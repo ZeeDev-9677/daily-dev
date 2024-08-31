@@ -1,0 +1,54 @@
+package basicodes;
+
+import java.util.Arrays;
+
+//input=CloudTeCh (description =remove desire elements from a given string below) 
+//output=loudTeh
+public class RemoveRepeatElements {
+
+//	public static void main(String[] args) {
+//		String st="CloudTeChC";
+//		char c='C';
+//    remove(st,c);
+//
+//	}
+//
+//	public static void remove(String str, char ch) {
+//		String newStr="";
+//		int n=str.length();
+//		for(int i=0;i<n;i++) {// take length of the string
+//			if(str.charAt(i)!=ch) { //remove repeating elements 
+//				newStr=newStr+str.charAt(i);
+//			}
+//		}
+//		System.out.println(newStr);
+//	}
+
+//	-----------------------------different way----------
+
+	public static void main(String[] args) {
+		
+		String str = "aakabc";
+		char[] ch = str.toCharArray();
+
+		Arrays.sort(ch);
+		int n = ch.length;
+		char[] temp = new char[n];
+		int j=0;
+		System.out.println("length is =" + n);
+		System.out.print("after sorting is :");
+		System.out.println(ch);
+		for (int i = 0; i < n - 1; i++) {
+
+			if (ch[i] != ch[i + 1]) {
+				temp[j] = ch[i];
+				j++;
+			}
+
+		}
+		temp[j++]=ch[n-1];
+		System.out.print("the answer is =");
+		System.out.print(temp);
+
+	}
+}
